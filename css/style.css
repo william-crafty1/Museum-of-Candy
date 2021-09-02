@@ -1,12 +1,45 @@
 body{
     background: #f5d9d5!important;
-    color: white!important;
     margin: 0;
     height: 100vh;
     font-family: "Nunito", sans-serif;
 }
 
-/* title panel CSS and mobile adjustments */
+/* navbar CSS  */
+#navigation{
+    background: #f8d6d1!important;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#navigation .navbar-brand{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #EA1C2C;
+}
+#navigation .nav-link{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white
+}
+
+#navigation .nav-link:hover{
+    padding-left: 20px;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #EA1C2C;
+}
+
+.black{
+    color: rgb(0, 0, 0);
+}
+
+/* panel CSS and mobile adjustments */
+
+#panel{
+    color: white;
+}
 /* title CSS */
 #title-div{
     display: flex;
