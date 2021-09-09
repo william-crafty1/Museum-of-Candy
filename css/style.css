@@ -39,19 +39,17 @@ body {
     color: rgb(0, 0, 0);
 }
 
+.navbar.scrolled{
+    background: rgb(222, 192, 222);
+}
+
 @media(max-width: 576px) {
     #navigation .nav-link {
-        padding-left: 10px;
         font-size: 1.0em;
-        font-weight: 100;
-        color: white;
     }
 
     #navigation .nav-link:hover {
-        padding-left: 10px;
         font-size: 1.0em;
-        font-weight: 100;
-        color: #EA1C2C;
     }
 }
 
