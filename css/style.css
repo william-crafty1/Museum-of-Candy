@@ -1,6 +1,6 @@
 body {
     background: #f5d9d5 !important;
-    margin: 0;
+    margin: 0!important;
     height: 100vh;
     font-family: "Nunito", sans-serif;
 }
@@ -31,16 +31,13 @@ body {
     color: #EA1C2C;
 }
 
-.navbar-toggler{
-    padding-right: 20px!important;
-}
-
 .black {
     color: rgb(0, 0, 0);
 }
 
 .navbar.scrolled{
     background: rgb(222, 192, 222);
+    transition: 300ms;
 }
 
 @media(max-width: 576px) {
@@ -51,12 +48,17 @@ body {
     #navigation .nav-link:hover {
         font-size: 1.0em;
     }
+
+    .navbar-toggler{
+        padding-right: 20px!important;
+    }
 }
 
     /* panel CSS and mobile adjustments */
 
     #panel {
         color: white;
+        padding-left: 0px;
     }
 
     /* title CSS */
